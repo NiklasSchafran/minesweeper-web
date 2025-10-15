@@ -1,0 +1,28 @@
+@*
+  This template is called from the `index` template.
+  It handles the rendering of the page header and body tags.
+  It takes two arguments: a `String` for the title and an `Html` object for the body content.
+*@
+@(title: String)(content: Html)
+
+@import controllers.routes.Assets
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>@title</title>
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" media="screen" href="@Assets.versioned("stylesheets/main.css")">
+    <link rel="shortcut icon" type="image/png" href="@Assets.versioned("images/favicon.png")">
+
+  </head>
+  <body>
+    <!-- Main Content -->
+    @content
+
+    <!-- JavaScript -->
+    <script src="@Assets.versioned("javascripts/main.js")" type="text/javascript"></script>
+  </body>
+</html>

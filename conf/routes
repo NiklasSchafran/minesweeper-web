@@ -1,0 +1,18 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# https://www.playframework.com/documentation/latest/ScalaRouting
+# ~~~~
+
+# An example controller showing a sample home page
+
+
+# Map static resources from the /public folder to the /assets URL path
+GET     /assets/*file               controllers.Assets.versioned(path="/public", file: Asset)
+
+# Minesweeper-Web-Routen
+GET     /                           controllers.MinesweeperWebController.index
+GET     /state                      controllers.MinesweeperWebController.state
+GET     /uncover/:x/:y              controllers.MinesweeperWebController.uncover(x: Int, y: Int)
+GET     /undo                       controllers.MinesweeperWebController.undo
+GET     /difficulty/:level          controllers.MinesweeperWebController.setDifficulty(level: String)
+
