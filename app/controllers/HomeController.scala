@@ -9,13 +9,9 @@ import de.htwg.se.minesweeper.model.GameComponent.Status
 import de.htwg.se.minesweeper.model.FieldComponent.{Field, FieldInterface, Symbols, Matrix}
 import de.htwg.se.minesweeper.difficulty.{DifficultyStrategy, EasyDifficulty, MediumDifficulty, HardDifficulty}
 
-/**
- * Einfacher Controller ohne Guice Injection
- */
 @Singleton
 class MinesweeperWebController @Inject()(cc: ControllerComponents) extends AbstractController(cc) {
 
-  // Minesweeper-Spiel direkt erstellen (ohne DI)
   private val game: Game = new Game()
   private val field: FieldInterface = Field(Matrix(Vector.fill(10, 10)(Symbols.Covered)), Matrix(Vector.fill(10, 10)(Symbols.Covered)))
   private val controller: ControllerInterface = Controller(field, game)
