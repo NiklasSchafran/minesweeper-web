@@ -10,8 +10,9 @@
 GET     /assets/*file               controllers.Assets.versioned(path="/public", file: Asset)
 
 # Minesweeper-Web-Routen
-GET     /                           controllers.MinesweeperWebController.index
+GET     /                           controllers.MinesweeperWebController.history()
 GET     /state                      controllers.MinesweeperWebController.state
+GET     /gui                        controllers.MinesweeperWebController.gui()
 GET     /uncover/:x/:y              controllers.MinesweeperWebController.uncover(x: Int, y: Int)
 GET     /undo                       controllers.MinesweeperWebController.undo
 GET     /difficulty/:level          controllers.MinesweeperWebController.setDifficulty(level: String)

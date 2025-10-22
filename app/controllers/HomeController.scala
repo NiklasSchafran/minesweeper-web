@@ -24,9 +24,13 @@ class MinesweeperWebController @Inject()(cc: ControllerComponents) extends Abstr
     Ok(controller.toString)
   }
 
+  def history = Action { implicit request: Request[AnyContent] =>
+    Ok(views.html.history())
+  }
+
   def uncover(x: Int, y: Int) = Action {
     controller.uncoverField(x, y, game)
-    Ok(controller.toString)
+    Redirect(routes.MinesweeperWebController.gui())
   }
 
   def setDifficulty(level: String) = Action {
@@ -37,9 +41,12 @@ class MinesweeperWebController @Inject()(cc: ControllerComponents) extends Abstr
       case _              => new de.htwg.se.minesweeper.difficulty.EasyDifficulty
     }
     controller.setDifficulty(strategy)
-    Ok(s"Difficulty set to $level\n${controller.toString}")
+    Redirect(routes.MinesweeperWebController.gui())
   }
 
+  def gui() = Action {
+    Ok(views.html.gui(controller))
+  }
 
   def undo = Action {
     controller.undo()
