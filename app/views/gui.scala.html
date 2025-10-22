@@ -4,35 +4,47 @@
 @import de.htwg.se.minesweeper.model.FieldComponent.{Field, FieldInterface, Symbols, Matrix}
 
 @main("Minesweeper GUI") {
-    <h1>Minesweeper Game</h1>
+    <div style="text-align:center; font-family:Arial, sans-serif; margin-top:20px;">
+        <h1 style="margin-bottom:10px;">💣 Minesweeper 💣</h1>
 
-    <p>
-        <strong>Difficulty:</strong>
-        <a href='@routes.MinesweeperWebController.setDifficulty("0")'>Easy</a> |
-        <a href='@routes.MinesweeperWebController.setDifficulty("1")'>Medium</a> |
-        <a href='@routes.MinesweeperWebController.setDifficulty("2")'>Hard</a>
-    </p>
+        <p style="font-size:16px;">
+            Wähle eine <strong>Schwierigkeitsstufe</strong>:
+            <br>
+            <a href='@routes.MinesweeperWebController.setDifficulty("0")'>🟩 Einfach</a> |
+            <a href='@routes.MinesweeperWebController.setDifficulty("1")'>🟨 Mittel</a> |
+            <a href='@routes.MinesweeperWebController.setDifficulty("2")'>🟥 Schwer</a>
+        </p>
 
-    <table border="1" cellpadding="5" cellspacing="0">
-        @for(y <- 0 until controller.field.size) {
-            <tr>
-                @for(x <- 0 until controller.field.size) {
-                    <td style="width:30px;height:30px;text-align:center;">
-                        @{
-                            val cellValue = controller.field.cell(x, y)
-                            cellValue match {
-                                case Symbols.Covered => Html(
-                                    s"""<a href='${routes.MinesweeperWebController.uncover(y, x).url}'>[ ]</a>"""
-                                )
-                                case Symbols.Empty => Html("&nbsp;")
-                                case Symbols.Bomb => Html("💣")
-                                case number => Html(number.toString)
-                            }
+        <p style="margin-top:20px;">
+            <strong>Spielanleitung:</strong><br>
+            Klicke auf ein Feld, um es aufzudecken.  
+            Wenn du eine Mine triffst, ist das Spiel vorbei!
+        </p>
+
+        <div style="display:inline-block; margin-top:15px;">
+            <table border="1" cellpadding="6" cellspacing="0" 
+                   style="border-collapse:collapse; background-color:#f8f8f8;">
+                @for(y <- 0 until controller.field.size) {
+                    <tr>
+                        @for(x <- 0 until controller.field.size) {
+                            <td style="width:32px; height:32px; text-align:center; font-size:16px;">
+                                @{
+                                    val cellValue = controller.field.cell(x, y)
+                                    cellValue match {
+                                        case Symbols.Covered => Html(
+                                            s"""<a href='${routes.MinesweeperWebController.uncover(y, x).url}' 
+                                                style="text-decoration:none; color:black;">□</a>"""
+                                        )
+                                        case Symbols.Empty => Html("&nbsp;")
+                                        case Symbols.Bomb => Html("💣")
+                                        case number => Html(number.toString)
+                                    }
+                                }
+                            </td>
                         }
-                    </td>
+                    </tr>
                 }
-            </tr>
-        }
-    </table>
-
+            </table>
+        </div>
+    </div>
 }
