@@ -1,119 +1,130 @@
-/* Hauptcontainer */
-.container {
-    text-align: center;
-    font-family: 'Segoe UI', Arial, sans-serif;
-    margin-top: 20px;
-    color: #333;
-}
-
-/* Titel */
-h1 {
-    margin-bottom: 10px;
-    color: #222;
-    text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
-}
-
-/* Schwierigkeitsauswahl */
-.difficulty {
-    font-size: 16px;
-}
-
+/* ====== Hintergrund ====== */
 body {
     background-image: url("/assets/images/minesweeper.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    font-family: 'Poppins', sans-serif;
     color: #fff;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
+    margin: 0;
+    padding: 0;
 }
 
-body::before {
-    content: "";
+/* ====== Kopfbereich ====== */
+#top-nav {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 12px 24px;
     position: fixed;
-    top: 0; left: 0;
-    width: 100%; height: 100%;
-    background: rgba(0, 0, 0, 0.25);
-    z-index: -1;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    text-align: center;
 }
 
+#top-nav h1 {
+    color: #fff;
+    font-size: 2rem;
+    margin: 0;
+}
+
+/* ====== Hauptcontainer ====== */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    text-align: center;
+    margin-top: 80px;
+}
+
+/* ====== Schwierigkeitsauswahl ====== */
+.difficulty {
+    margin: 20px 0;
+}
 
 .difficulty a {
-    text-decoration: none;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1.2rem;
     font-weight: bold;
-    padding: 6px 12px;
-    border-radius: 6px;
-    transition: all 0.2s ease-in-out;
+    border-radius: 8px;
+    margin: 0 8px;
+    text-decoration: none;
+    color: white;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 }
 
 .difficulty a[href*="0"] {
-    background-color: #9be79b;
-    color: #0a430a;
+    background-color: #27ae60;
 }
 .difficulty a[href*="1"] {
-    background-color: #ffe78a;
-    color: #5c4a00;
+    background-color: #f1c40f;
 }
 .difficulty a[href*="2"] {
-    background-color: #ff7b7b;
-    color: #5a0000;
+    background-color: #e74c3c;
 }
 
 .difficulty a:hover {
-    opacity: 0.85;
+    transform: translateY(-3px);
+    opacity: 0.9;
 }
 
-/* Spielanleitung */
+/* ====== Spielanleitung ====== */
 .instructions {
-    margin-top: 20px;
-    font-size: 15px;
+    font-size: 1rem;
+    margin-bottom: 20px;
 }
 
-/* Spielfeld */
+/* ====== Spielfeld ====== */
 .board-wrapper {
+    background-color: rgba(255, 255, 255, 0.15);
+    padding: 16px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.3);
     display: inline-block;
-    margin-top: 15px;
 }
 
+/* ====== Tabelle ====== */
 table {
     border-collapse: collapse;
-    background-color: #f8f8f8;
-    margin: auto;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    border-radius: 6px;
-    overflow: hidden;
 }
 
 td {
     width: 32px;
     height: 32px;
     text-align: center;
-    font-size: 16px;
-    border: 1px solid #ccc;
-    transition: background-color 0.2s;
+    border: 1px solid rgba(255,255,255,0.3);
+    background-color: rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    transition: all 0.2s ease;
+    font-size: 1.2rem;
+    border-radius: 4px;
 }
 
-/* Klickbare Felder */
+td:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    transform: scale(1.05);
+}
+
+/* ====== Links in den Feldern ====== */
 td a {
     display: block;
     width: 100%;
     height: 100%;
-    line-height: 32px;
-    background-color: #cce1ff;
-    border-radius: 4px;
-    color: black;
+    color: white;
     text-decoration: none;
 }
 
-td a:hover {
-    background-color: #b3d1ff;
-}
-
-/* Aufgedeckte leere Felder */
-td:empty {
-    background-color: #e7f0f7;
-}
-
-/* Bomben */
+/* ====== Bombenfelder ====== */
 td:has(> :contains("💣")) {
-    background-color: #ffcccc;
+    background-color: rgba(255, 0, 0, 0.4);
+}
+
+/* ====== Leere Felder ====== */
+td:empty {
+    background-color: rgba(255, 255, 255, 0.1);
 }

@@ -2421,3 +2421,5 @@ INFO: Unsupported notification method: $/setTrace
 2025.10.29 15:00:24 INFO  Shutting down server
 2025.10.29 15:00:24 INFO  shutting down Metals
 2025.10.29 15:00:24 INFO  Exiting server
+2025.10.29 18:52:47 INFO  Started: Metals version 1.6.3 in folders 'C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web' for client Visual Studio Code 1.105.1.
+2025.10.29 18:52:48 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
