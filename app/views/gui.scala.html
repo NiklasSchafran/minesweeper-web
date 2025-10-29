@@ -4,10 +4,10 @@
 @import de.htwg.se.minesweeper.model.FieldComponent.{Field, FieldInterface, Symbols, Matrix}
 
 @main("Minesweeper GUI") {
-    <div style="text-align:center; font-family:Arial, sans-serif; margin-top:20px;">
-        <h1 style="margin-bottom:10px;">💣 Minesweeper 💣</h1>
+    <div class="container">
+        <h1>💣 Minesweeper 💣</h1>
 
-        <p style="font-size:16px;">
+        <p class="difficulty">
             Wähle eine <strong>Schwierigkeitsstufe</strong>:
             <br>
             <a href='@routes.MinesweeperWebController.setDifficulty("0")'>🟩 Einfach</a> |
@@ -15,25 +15,23 @@
             <a href='@routes.MinesweeperWebController.setDifficulty("2")'>🟥 Schwer</a>
         </p>
 
-        <p style="margin-top:20px;">
+        <p class="instructions">
             <strong>Spielanleitung:</strong><br>
             Klicke auf ein Feld, um es aufzudecken.  
             Wenn du eine Mine triffst, ist das Spiel vorbei!
         </p>
 
-        <div style="display:inline-block; margin-top:15px;">
-            <table border="1" cellpadding="6" cellspacing="0" 
-                   style="border-collapse:collapse; background-color:#f8f8f8;">
+        <div class="board-wrapper">
+            <table>
                 @for(y <- 0 until controller.field.size) {
                     <tr>
                         @for(x <- 0 until controller.field.size) {
-                            <td style="width:32px; height:32px; text-align:center; font-size:16px;">
+                            <td>
                                 @{
                                     val cellValue = controller.field.cell(x, y)
                                     cellValue match {
                                         case Symbols.Covered => Html(
-                                            s"""<a href='${routes.MinesweeperWebController.uncover(y, x).url}' 
-                                                style="text-decoration:none; color:black;">□</a>"""
+                                            s"""<a href='${routes.MinesweeperWebController.uncover(y, x).url}'>□</a>"""
                                         )
                                         case Symbols.Empty => Html("&nbsp;")
                                         case Symbols.Bomb => Html("💣")
