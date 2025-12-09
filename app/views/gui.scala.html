@@ -4,34 +4,37 @@
 @import de.htwg.se.minesweeper.model.FieldComponent.{Field, FieldInterface, Symbols, Matrix}
 
 @main("Minesweeper GUI") {
-    <div class="container">
-        <h1>💣 Minesweeper 💣</h1>
+    <div class="container text-center my-4">
+        <h1 class="mb-4">💣 Minesweeper 💣</h1>
 
-        <p class="difficulty">
-            Wähle eine <strong>Schwierigkeitsstufe</strong>:
-            <br>
-            <a href='@routes.MinesweeperWebController.setDifficulty("0")'>🟩 Einfach</a> |
-            <a href='@routes.MinesweeperWebController.setDifficulty("1")'>🟨 Mittel</a> |
-            <a href='@routes.MinesweeperWebController.setDifficulty("2")'>🟥 Schwer</a>
-        </p>
+        <div class="mb-3">
+            <p><strong>Wähle eine Schwierigkeitsstufe:</strong></p>
+            <div class="btn-group" role="group">
+                <a href='@routes.MinesweeperWebController.setDifficulty("0")' class="btn btn-success">🟩 Einfach</a>
+                <a href='@routes.MinesweeperWebController.setDifficulty("1")' class="btn btn-warning">🟨 Mittel</a>
+                <a href='@routes.MinesweeperWebController.setDifficulty("2")' class="btn btn-danger">🟥 Schwer</a>
+            </div>
+        </div>
 
-        <p class="instructions">
+        <div class="alert alert-info mx-auto col-md-6">
             <strong>Spielanleitung:</strong><br>
-            Klicke auf ein Feld, um es aufzudecken.  
+            Klicke auf ein Feld, um es aufzudecken.<br>
             Wenn du eine Mine triffst, ist das Spiel vorbei!
-        </p>
+        </div>
 
-        <div class="board-wrapper">
-            <table>
+        <div class="d-flex justify-content-center">
+            <table class="table table-bordered table-sm text-center w-auto">
                 @for(y <- 0 until controller.field.size) {
                     <tr>
                         @for(x <- 0 until controller.field.size) {
-                            <td>
+                            <td style="width: 30px; height: 30px;">
                                 @{
                                     val cellValue = controller.field.cell(x, y)
                                     cellValue match {
                                         case Symbols.Covered => Html(
-                                            s"""<a href='${routes.MinesweeperWebController.uncover(y, x).url}'>□</a>"""
+                                            s"""<a href='${routes.MinesweeperWebController.uncover(y, x).url}' 
+                                                class="btn btn-outline-secondary btn-sm p-0" 
+                                                style="width: 100%; height: 100%;">□</a>"""
                                         )
                                         case Symbols.Empty => Html("&nbsp;")
                                         case Symbols.Bomb => Html("💣")

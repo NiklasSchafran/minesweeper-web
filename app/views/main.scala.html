@@ -1,10 +1,4 @@
-@*
-  This template is called from the `index` template.
-  It handles the rendering of the page header and body tags.
-  It takes two arguments: a `String` for the title and an `Html` object for the body content.
-*@
-@(title: String)(content: Html)
-
+@(title: String)(content: Html)   <!-- 🔹 Muss ganz oben stehen -->
 @import controllers.routes.Assets
 
 <!DOCTYPE html>
@@ -18,9 +12,12 @@
     <link rel="shortcut icon" type="image/png" href="@Assets.versioned("images/favicon.png")">
     <link rel="stylesheet" href='@routes.Assets.versioned("stylesheets/gui.css")'>
 
-
-
+    <!-- ✅ Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="@routes.Assets.versioned("javascripts/main.js")"></script>
   </head>
+
   <body>
     <!-- Main Content -->
     @content
