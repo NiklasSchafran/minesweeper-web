@@ -10,9 +10,9 @@
         <div class="mb-3">
             <p><strong>Wähle eine Schwierigkeitsstufe:</strong></p>
             <div class="btn-group" role="group">
-                <a href='@routes.MinesweeperWebController.setDifficulty("0")' class="btn btn-success">🟩 Einfach</a>
-                <a href='@routes.MinesweeperWebController.setDifficulty("1")' class="btn btn-warning">🟨 Mittel</a>
-                <a href='@routes.MinesweeperWebController.setDifficulty("2")' class="btn btn-danger">🟥 Schwer</a>
+                <button class="btn btn-success" onclick="setDifficulty('0')">🟩 Einfach</button>
+                <button class="btn btn-warning" onclick="setDifficulty('1')">🟨 Mittel</button>
+                <button class="btn btn-danger" onclick="setDifficulty('2')">🟥 Schwer</button>
             </div>
         </div>
 
@@ -22,25 +22,44 @@
             Wenn du eine Mine triffst, ist das Spiel vorbei!
         </div>
 
+        <div class="mb-3">
+            <h4>⏱️ Zeit: <span id="timer">0</span> Sekunden</h4>
+        </div>
+
+
         <div class="d-flex justify-content-center">
             <table class="table table-bordered table-sm text-center w-auto">
                 @for(y <- 0 until controller.field.size) {
                     <tr>
                         @for(x <- 0 until controller.field.size) {
                             <td style="width: 30px; height: 30px;">
+
                                 @{
                                     val cellValue = controller.field.cell(x, y)
                                     cellValue match {
+
+                                        // 🟦 COVERED → Button + JS-Event
                                         case Symbols.Covered => Html(
-                                            s"""<a href='${routes.MinesweeperWebController.uncover(y, x).url}' 
-                                                class="btn btn-outline-secondary btn-sm p-0" 
-                                                style="width: 100%; height: 100%;">□</a>"""
+                                            s"""
+                                            <button class="cellButton btn btn-outline-secondary btn-sm p-0"
+                                                data-x="$x" data-y="$y"
+                                                style="width:100%; height:100%;">
+                                                □
+                                            </button>
+                                            """
                                         )
+
+                                        // ▫️ Leer
                                         case Symbols.Empty => Html("&nbsp;")
+
+                                        // 💣 Bombe
                                         case Symbols.Bomb => Html("💣")
+
+                                        // 🔢 Zahlen
                                         case number => Html(number.toString)
                                     }
                                 }
+
                             </td>
                         }
                     </tr>
@@ -48,4 +67,7 @@
             </table>
         </div>
     </div>
+
+    <!-- ❗ JavaScript extern einbinden -->
+    <script src='@routes.Assets.versioned("javascripts/minesweeper.js")'></script>
 }
