@@ -13,4 +13,6 @@ target
 .metals/
 metals.sbt
 null/*
+metals.log
+metals.mv.db
 
