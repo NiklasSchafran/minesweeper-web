@@ -1,73 +1,28 @@
-@(controller: de.htwg.se.minesweeper.controller.ControllerInterface)
+@()
 
-@import helper._
-@import de.htwg.se.minesweeper.model.FieldComponent.{Field, FieldInterface, Symbols, Matrix}
+@main("Minesweeper SPA") {
+  <link rel="stylesheet" href='@routes.Assets.versioned("stylesheets/main.css")'>
+  <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+  <script src='@routes.Assets.versioned("javascripts/minesweeper_spa.js")'></script>
 
-@main("Minesweeper GUI") {
-    <div class="container text-center my-4">
-        <h1 class="mb-4">💣 Minesweeper 💣</h1>
+  <div id="app">
+    <header>
+      <h1>Minesweeper</h1>
+    </header>
 
-        <div class="mb-3">
-            <p><strong>Wähle eine Schwierigkeitsstufe:</strong></p>
-            <div class="btn-group" role="group">
-                <button class="btn btn-success" onclick="setDifficulty('0')">🟩 Einfach</button>
-                <button class="btn btn-warning" onclick="setDifficulty('1')">🟨 Mittel</button>
-                <button class="btn btn-danger" onclick="setDifficulty('2')">🟥 Schwer</button>
-            </div>
-        </div>
+    <div id="controls" class="mb-3">
+      <button id="easy" class="btn">Easy</button>
+      <button id="medium" class="btn">Medium</button>
+      <button id="hard" class="btn">Hard</button>
 
-        <div class="alert alert-info mx-auto col-md-6">
-            <strong>Spielanleitung:</strong><br>
-            Klicke auf ein Feld, um es aufzudecken.<br>
-            Wenn du eine Mine triffst, ist das Spiel vorbei!
-        </div>
-
-        <div class="mb-3">
-            <h4>⏱️ Zeit: <span id="timer">0</span> Sekunden</h4>
-        </div>
-
-
-        <div class="d-flex justify-content-center">
-            <table class="table table-bordered table-sm text-center w-auto">
-                @for(y <- 0 until controller.field.size) {
-                    <tr>
-                        @for(x <- 0 until controller.field.size) {
-                            <td style="width: 30px; height: 30px;">
-
-                                @{
-                                    val cellValue = controller.field.cell(x, y)
-                                    cellValue match {
-
-                                        // 🟦 COVERED → Button + JS-Event
-                                        case Symbols.Covered => Html(
-                                            s"""
-                                            <button class="cellButton btn btn-outline-secondary btn-sm p-0"
-                                                data-x="$x" data-y="$y"
-                                                style="width:100%; height:100%;">
-                                                □
-                                            </button>
-                                            """
-                                        )
-
-                                        // ▫️ Leer
-                                        case Symbols.Empty => Html("&nbsp;")
-
-                                        // 💣 Bombe
-                                        case Symbols.Bomb => Html("💣")
-
-                                        // 🔢 Zahlen
-                                        case number => Html(number.toString)
-                                    }
-                                }
-
-                            </td>
-                        }
-                    </tr>
-                }
-            </table>
-        </div>
+      <button id="undo" class="btn">Undo</button>
+      <button id="restart" class="btn">Restart</button>
+      <button id="saveGame" class="btn">Save</button>
+      <button id="loadGamePage" class="btn">Load page</button>
     </div>
 
-    <!-- ❗ JavaScript extern einbinden -->
-    <script src='@routes.Assets.versioned("javascripts/minesweeper.js")'></script>
+    <div id="gameArea">
+      <div id="gameBoard"></div>
+    </div>
+  </div>
 }

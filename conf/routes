@@ -10,10 +10,17 @@
 GET     /assets/*file               controllers.Assets.versioned(path="/public", file: Asset)
 
 # Minesweeper-Web-Routen
-GET     /                           controllers.MinesweeperWebController.history()
-GET     /state                      controllers.MinesweeperWebController.state
-GET     /gui                        controllers.MinesweeperWebController.gui()
-GET     /uncover/:x/:y              controllers.MinesweeperWebController.uncover(x: Int, y: Int)
-GET     /undo                       controllers.MinesweeperWebController.undo
-GET     /difficulty/:level          controllers.MinesweeperWebController.setDifficulty(level: String)
+# Game JSON API (Minesweeper SPA-style)
+GET     /game/homepage           controllers.GameJsonController.gameHomepage()
+GET     /game/gui                controllers.GameJsonController.gameGui()
+GET     /game/getGameBoard       controllers.GameJsonController.getGameBoard()
+POST    /game/setDiff            controllers.GameJsonController.setDifficulty()
+POST    /game/uncover            controllers.GameJsonController.uncover()
+POST    /game/undo               controllers.GameJsonController.undo()
+POST    /game/restart            controllers.GameJsonController.restart()
+GET     /game/getBombMatrix      controllers.GameJsonController.getBombMatrix()
+POST    /game/save               controllers.GameJsonController.saveGame()
+POST    /game/load               controllers.GameJsonController.loadGame()
+GET     /game/list              controllers.GameJsonController.getGamesList()
+
 

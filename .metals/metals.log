@@ -2644,3 +2644,194 @@ Exception in thread "pool-59-thread-1" java.lang.InterruptedException
 2025.12.10 18:47:28 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
 2025.12.10 18:47:32 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
 2025.12.10 18:47:37 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.10 20:20:03 WARN  no build target for: C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala
+2025.12.10 20:20:03 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.10 20:20:03 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+Dez. 10, 2025 8:20:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 282
+2025.12.10 20:20:03 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.10 20:20:29 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.10 20:23:18 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.10 20:23:18 WARN  no build target for: C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala
+2025.12.10 20:23:18 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.10 20:23:18 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.10 20:23:18 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.10 20:23:18 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.10 20:23:19 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.10 20:23:18 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.10 20:23:19 INFO  empty definition using pc, found symbol in pc: `<none>`. (full report at: "C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\.metals\.reports\metals-full\2025-10-15\r_empty-definition_10-50-04-061.md")
+Dez. 10, 2025 8:23:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 300
+2025.12.10 20:23:19 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.10 20:23:19 INFO  empty definition using pc, found symbol in pc: `<none>`. (full report at: "C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\.metals\.reports\metals-full\2025-10-15\r_empty-definition_10-50-04-061.md")
+2025.12.10 20:23:19 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.10 20:23:19 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.10 20:23:19 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.10 20:23:19 INFO  empty definition using pc, found symbol in pc: `<none>`. (full report at: "C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\.metals\.reports\metals-full\2025-10-15\r_empty-definition_10-50-04-061.md")
+2025.12.10 20:23:42 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.10 20:24:24 WARN  no build target for: C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala
+2025.12.10 20:24:24 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.10 20:24:24 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.10 20:24:24 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.10 20:24:24 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.10 20:24:24 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.10 20:24:25 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.10 20:24:25 INFO  empty definition using pc, found symbol in pc: `<none>`. (full report at: "C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\.metals\.reports\metals-full\2025-10-15\r_empty-definition_10-50-04-061.md")
+2025.12.10 20:24:55 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.10 20:24:58 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.10 20:24:58 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.10 20:24:59 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.10 20:24:59 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.10 20:25:00 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.10 20:25:02 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.10 20:25:02 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.10 20:25:02 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.10 20:25:02 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.10 20:25:02 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.10 20:25:02 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.10 20:25:02 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.10 20:25:02 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.10 20:25:02 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.10 20:25:03 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.10 20:25:03 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.10 20:25:03 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.10 20:25:02 INFO  empty definition using pc, found symbol in pc: `<none>`. (full report at: "C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\.metals\.reports\metals-full\2025-10-15\r_empty-definition_10-50-04-061.md")
+2025.12.10 20:25:09 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.10 20:25:09 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.10 20:25:09 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.10 20:25:10 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.10 20:25:10 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.10 20:25:12 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.10 20:25:12 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.10 20:25:13 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.10 20:25:13 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.10 20:25:14 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.10 20:25:14 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.10 20:25:15 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.10 20:25:16 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.10 20:25:16 WARN  no build target for: C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala
+2025.12.10 20:25:16 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.10 20:25:17 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.10 20:25:58 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.10 20:25:58 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.10 20:28:02 WARN  no build target for: C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala
+2025.12.10 20:28:02 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.10 20:28:03 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.10 20:28:02 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.10 20:28:03 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.10 20:28:03 INFO  empty definition using pc, found symbol in pc: `<none>`. (full report at: "C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\.metals\.reports\metals-full\2025-10-15\r_empty-definition_10-50-04-061.md")
+2025.12.10 20:28:02 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.10 20:28:04 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.10 20:28:04 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.10 20:28:04 INFO  empty definition using pc, found symbol in pc: `<none>`. (full report at: "C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\.metals\.reports\metals-full\2025-10-15\r_empty-definition_10-50-04-061.md")
+2025.12.10 20:30:50 WARN  no build target for: C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala
+2025.12.10 20:30:50 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.10 20:30:50 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.10 20:30:50 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.10 20:30:51 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.10 20:38:09 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.10 20:38:09 WARN  no build target for: C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala
+2025.12.10 20:38:09 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.10 20:38:09 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.10 20:38:10 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.10 20:38:10 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.10 20:38:14 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.10 20:38:15 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.10 20:38:15 WARN  Could not find semantic tokens for: file:///C:/Users/Niklas/Studium/Semester8/Web/minesweeper-web/app/controllers/HomeController.scala
+2025.12.10 20:38:14 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.10 20:38:14 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.10 20:38:15 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.10 20:38:15 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.10 20:38:15 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.10 20:38:16 WARN  no build target for: C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala
+2025.12.10 20:38:16 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.10 20:38:18 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.10 20:40:53 WARN  no build target for: C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala
+2025.12.10 20:40:53 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.10 20:40:53 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.10 20:40:53 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.10 20:40:56 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.10 20:40:57 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.10 20:41:00 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.10 20:41:00 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.10 20:41:03 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.10 20:41:03 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.10 20:41:04 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.10 20:41:04 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.10 20:41:08 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.10 20:41:08 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.10 20:41:08 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.10 20:41:12 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.10 20:41:12 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.10 20:41:12 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.10 20:41:13 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.10 20:41:13 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.10 20:41:13 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.10 20:41:14 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.10 20:41:16 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.10 20:41:16 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.10 20:41:18 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.10 20:41:18 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.10 20:41:20 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.10 20:42:11 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.10 20:42:11 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.10 20:42:11 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.10 20:42:13 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.10 20:42:13 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.10 20:42:14 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.10 20:42:14 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.10 20:42:15 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.10 20:42:15 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.10 20:42:16 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.10 20:42:18 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.10 20:42:18 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.10 20:42:19 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.10 20:42:19 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.10 20:42:21 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.10 20:42:21 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.10 20:42:22 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.10 20:42:22 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.10 20:42:22 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.10 20:42:22 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.10 20:42:23 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.10 20:42:24 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.10 20:42:25 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.10 20:42:25 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.10 20:42:26 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.10 20:42:25 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.10 20:42:38 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.10 20:42:39 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.10 20:42:40 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.10 20:42:40 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.10 20:42:40 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.10 20:42:41 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.10 20:42:41 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.10 20:42:41 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.10 20:42:42 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.10 20:42:43 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.10 20:42:42 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.10 20:42:42 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.10 20:42:43 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.10 20:42:44 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.10 20:42:48 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.10 20:42:48 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.10 20:42:49 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.10 20:42:49 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.10 20:43:16 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2025.12.10 20:43:16 WARN  no build target for: C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala
+2025.12.11 10:21:17 INFO  Shutting down server
+2025.12.11 10:21:17 INFO  shutting down Metals
+2025.12.11 10:21:17 INFO  Exiting server
+2025.12.11 10:21:18 ERROR Unexpected error initializing server: 
+org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Request window/showMessageRequest failed with message: Canceled
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleResponse(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:204)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:185)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:114)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+

@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", () => {
+$(document).ready(function() {
 
     let timerInterval = null;
 
@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", () => {
         timerInterval = setInterval(() => {
             const startTime = parseInt(localStorage.getItem("startTime"));
             const elapsedSeconds = Math.floor((Date.now() - startTime) / 1000);
-            document.getElementById("timer").textContent = elapsedSeconds;
+            $("#timer").text(elapsedSeconds);
         }, 1000);
     }
 
@@ -20,33 +20,74 @@ document.addEventListener("DOMContentLoaded", () => {
         localStorage.removeItem("startTime");
         clearInterval(timerInterval);
         timerInterval = null;
-        document.getElementById("timer").textContent = "0";
+        $("#timer").text("0");
     }
-
 
     if (localStorage.getItem("startTime")) {
         startTimer();
     }
 
     window.setDifficulty = function(level) {
+        console.log("SetDifficulty called → Level:", level);
         resetTimer();
-        fetch(`/difficulty/${level}`)
-            .then(() => window.location.reload())
-            .catch(err => console.error("Difficulty-Error:", err));
+        startTimer();
+        $.ajax({
+            url: `/difficulty/${level}`,
+            method: "GET",
+            success: function() {
+                loadGame();
+            }
+        });
     };
 
+    function loadGame() {
+        $.ajax({
+            url: "/loadGame",
+            method: "GET",
+            dataType: "json",
+            success: function(data) {
+                updateGrid(data);
+            }
+        });
+    }
 
-    const cells = document.querySelectorAll(".cellButton");
-    cells.forEach(cell => {
-        cell.addEventListener("click", () => {
-            startTimer();
+    function updateGrid(data) {
+        const matrix = data.matrix.rows;
 
-            const x = cell.getAttribute("data-x");
-            const y = cell.getAttribute("data-y");
+        $("#gameTable tr").each(function(y) {
+            $(this).find("button.cellButton").each(function(x) {
+                const value = matrix[y][x];
 
-            fetch(`/uncover/${y}/${x}`)
-                .then(() => window.location.reload());
+                let display = "□";
+                switch(value) {
+                    case "-": display = "□"; break;
+                    case " ": display = "&nbsp;"; break;
+                    case "*": display = "💣"; break;
+                    default: display = value; break;
+                }
+                $(this).html(display);
+            });
+        });
+    }
+
+    $(".cellButton").click(function() {
+        const x = $(this).data("x");
+        const y = $(this).data("y");
+
+        startTimer();
+
+        $.ajax({
+            url: `/uncover/${y}/${x}`,
+            method: "GET",
+            success: function() {
+                loadGame();
+            }
         });
     });
 
+    $("#loadBtn").click(function() {
+        loadGame();
+    });
+
+    loadGame();
 });
