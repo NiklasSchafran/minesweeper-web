@@ -28,6 +28,10 @@ class MinesweeperWebController @Inject()(cc: ControllerComponents) extends Abstr
     Ok(views.html.history())
   }
 
+  def test() = Action {
+    Ok(views.html.test())
+  }
+
   def uncover(x: Int, y: Int) = Action {
     controller.uncoverField(x, y, game)
     Redirect(routes.MinesweeperWebController.gui())
@@ -51,5 +55,9 @@ class MinesweeperWebController @Inject()(cc: ControllerComponents) extends Abstr
   def undo = Action {
     controller.undo()
     Ok(controller.toString)
+  }
+
+  def randomString(lenght: Int) = Action {
+    Ok(util.Random.nextString(lenght))
   }
 }

@@ -12,9 +12,10 @@ lazy val root = (project in file("."))
 
     libraryDependencies ++= Seq(
       guice,                               // Play Guice DI (optional, aber notwendig für Play)
-      "com.typesafe.play" %% "play-json" % "2.10.5",  // JSON Support
-      "org.scalactic" %% "scalactic" % "3.2.18",
-      "org.scalatest" %% "scalatest" % "3.2.18" % Test
+       "org.apache.pekko" %% "pekko-actor-typed" % "1.1.2",
+       "org.apache.pekko" %% "pekko-stream" % "1.1.2",
+       "org.apache.pekko" %% "pekko-http" % "1.1.2",
+       "com.typesafe.play" %% "play-json" % "2.10.5"
     ),
 
     dependencyOverrides ++= Seq(

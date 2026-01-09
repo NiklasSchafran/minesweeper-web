@@ -13,7 +13,11 @@ GET     /assets/*file               controllers.Assets.versioned(path="/public",
 GET     /                           controllers.MinesweeperWebController.history()
 GET     /state                      controllers.MinesweeperWebController.state
 GET     /gui                        controllers.MinesweeperWebController.gui()
+GET     /test                       controllers.MinesweeperWebController.test()
 GET     /uncover/:x/:y              controllers.MinesweeperWebController.uncover(x: Int, y: Int)
 GET     /undo                       controllers.MinesweeperWebController.undo
 GET     /difficulty/:level          controllers.MinesweeperWebController.setDifficulty(level: String)
+GET     /randomString/:length       controllers.MinesweeperWebController.randomString(length: Int)
+GET     /chat                       controllers.WebSocketChat.index()
+GET     /chatSocket                 controllers.WebSocketChat.socket
 
