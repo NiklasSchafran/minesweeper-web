@@ -5493,3 +5493,9 @@ Jan. 09, 2026 8:46:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancella
 WARNING: Unmatched cancel notification for request id 2
 2026.01.09 20:46:47 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
 2026.01.09 20:46:53 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2026.01.09 20:46:59 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2026.01.09 20:47:01 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2026.01.09 20:47:03 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\HomeController.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2026.01.09 20:47:03 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\WebSocketCHat.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2026.01.09 20:47:04 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\WebSocketCHat.scala. Using presentation compiler with project's scala-library version: 3.3.6
+2026.01.09 20:47:05 INFO  no build target found for C:\Users\Niklas\Studium\Semester8\Web\minesweeper-web\app\controllers\WebSocketCHat.scala. Using presentation compiler with project's scala-library version: 3.3.6
