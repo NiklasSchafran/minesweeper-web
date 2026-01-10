@@ -8,12 +8,19 @@ import de.htwg.se.minesweeper.model.GameComponent.Game
 import de.htwg.se.minesweeper.model.GameComponent.Status
 import de.htwg.se.minesweeper.model.FieldComponent.{Field, FieldInterface, Symbols, Matrix}
 import de.htwg.se.minesweeper.difficulty.{DifficultyStrategy, EasyDifficulty, MediumDifficulty, HardDifficulty}
+import de.htwg.se.minesweeper.model.FieldComponent._
+
+
 
 @Singleton
 class MinesweeperWebController @Inject()(cc: ControllerComponents) extends AbstractController(cc) {
 
   private val game: Game = new Game()
-  private val field: FieldInterface = Field(Matrix(Vector.fill(10, 10)(Symbols.Covered)), Matrix(Vector.fill(10, 10)(Symbols.Covered)))
+  private val field: FieldInterface = Field(
+    Matrix(Vector.fill(10, 10)(Covered)),
+    Matrix(Vector.fill(10, 10)(Covered))
+  )
+
   private val controller: ControllerInterface = Controller(field, game)
 
   def index = Action {

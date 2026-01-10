@@ -2,6 +2,9 @@
 
 @import helper._
 @import de.htwg.se.minesweeper.model.FieldComponent.{Field, FieldInterface, Symbols, Matrix}
+@import de.htwg.se.minesweeper.model.FieldComponent.Symbols
+@import de.htwg.se.minesweeper.model.FieldComponent.{Field, FieldInterface, Matrix}
+
 
 @main("Minesweeper GUI") {
     <div class="container text-center my-4">
@@ -38,8 +41,8 @@
                                     val cellValue = controller.field.cell(x, y)
                                     cellValue match {
 
-                                        // 🟦 COVERED → Button + JS-Event
-                                        case Symbols.Covered => Html(
+
+                                        case de.htwg.se.minesweeper.model.FieldComponent.Covered => Html(
                                             s"""
                                             <button class="cellButton btn btn-outline-secondary btn-sm p-0"
                                                 data-x="$x" data-y="$y"
@@ -48,12 +51,9 @@
                                             </button>
                                             """
                                         )
+                                        case de.htwg.se.minesweeper.model.FieldComponent.Empty   => Html("&nbsp;")
+                                        case de.htwg.se.minesweeper.model.FieldComponent.Bomb    => Html("💣")
 
-                                        // ▫️ Leer
-                                        case Symbols.Empty => Html("&nbsp;")
-
-                                        // 💣 Bombe
-                                        case Symbols.Bomb => Html("💣")
 
                                         // 🔢 Zahlen
                                         case number => Html(number.toString)
